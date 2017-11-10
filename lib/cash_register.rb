@@ -12,7 +12,7 @@ class CashRegister
   def add_item(title, price, quantity=1)
     self.total = total + (price * quantity)
     quantity.times do
-      @items << title 
+      @items << title
     end
     #This is where the transaction happens...
     @transaction = {title: title, price: price, quantity: quantity}
@@ -30,7 +30,7 @@ class CashRegister
 
   def void_last_transaction
     self.total = total + (price * quantity)
-    self.total = total - @transaction
+    self.total = total - @transaction[price]
   end
 
 end
