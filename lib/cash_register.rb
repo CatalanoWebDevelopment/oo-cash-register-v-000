@@ -30,7 +30,7 @@ class CashRegister
 
   def void_last_transaction
     @@items.each do |item|
-      binding.pry
+      item.pop
     end
   end
 
