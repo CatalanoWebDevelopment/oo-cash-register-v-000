@@ -18,6 +18,7 @@ class CashRegister
     else
       discounted = total * (discount/100)
       self.total = total - discounted
+      binding.pry
       "After the discount, the total comes to $#{total}."
     end
   end
