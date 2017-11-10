@@ -11,7 +11,7 @@ class CashRegister
   end
 
   def apply_discount
-    if cash_register_with_discount == 0
+    if cash_register_with_discount == nil
       "There is no discount to apply."
     else
       discounted = total * (discount/100)
