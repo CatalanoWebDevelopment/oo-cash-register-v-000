@@ -25,7 +25,7 @@ class CashRegister
   end
 
   def items
-    @@items
+    new_register = self.new
   end
 
 end
