@@ -25,7 +25,6 @@ class CashRegister
   end
 
   def items
-    self.new
     @@items
   end
 
