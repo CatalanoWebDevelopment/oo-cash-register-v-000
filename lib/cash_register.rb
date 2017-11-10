@@ -16,7 +16,7 @@ class CashRegister
       @items << title
     end
     #This is where the transaction happens...
-    
+
   end
 
   def apply_discount
