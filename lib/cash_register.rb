@@ -23,10 +23,6 @@ class CashRegister
     end
   end
 
-  def items
-    @@items << @title
-  end
-
   def void_last_transaction
     @@items.last.pop
   end
