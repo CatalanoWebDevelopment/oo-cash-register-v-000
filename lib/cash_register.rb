@@ -31,6 +31,7 @@ class CashRegister
   def void_last_transaction
     @@items.each do |item|
       item.pop
+      binding.pry
     end
   end
 
