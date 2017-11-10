@@ -11,8 +11,10 @@ class CashRegister
   end
 
   def apply_discount
-    discounted = total * discount
-    "After the discount, the total comes to $#{total}."
+    if cash_register_with_discount == nil
+      "There is no discount to apply."
+    else
+      
   end
 
 end
