@@ -25,9 +25,7 @@ class CashRegister
   end
 
   def items
-    new_register = Class.new
-    @@items
-
+    @@items << title
   end
 
 end
