@@ -14,7 +14,7 @@ class CashRegister
     if cash_register_with_discount == nil
       "There is no discount to apply."
     else
-      
+    end
   end
 
 end
