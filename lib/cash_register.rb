@@ -14,7 +14,7 @@ class CashRegister
 
   def apply_discount
     binding.pry
-    if cash_register_with_discount == nil
+    if discount == 0
       "There is no discount to apply."
     else
       discounted = total * (discount/100)
