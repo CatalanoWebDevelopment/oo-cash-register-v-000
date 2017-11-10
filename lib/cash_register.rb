@@ -25,7 +25,7 @@ class CashRegister
   end
 
   def items
-    @@items << title
+    @@items << @title
   end
 
 end
