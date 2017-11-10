@@ -15,7 +15,6 @@ class CashRegister
     if discounted == true
       puts "After the discount, the total comes to #{total}."
     end
-    self.total = discounted
   end
 
 end
