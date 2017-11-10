@@ -2,6 +2,7 @@ require 'pry'
 
 class CashRegister
   attr_accessor :cash_register_with_discount, :discount, :total
+  @@items = []
 
   def initialize(cash_register_with_discount=0)
     @discount = cash_register_with_discount
@@ -22,10 +23,8 @@ class CashRegister
     end
   end
 
-    def items
-      
-    end
-    
+  def items
+
   end
 
 end
