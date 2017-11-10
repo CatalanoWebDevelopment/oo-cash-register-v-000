@@ -13,6 +13,7 @@ class CashRegister
   end
 
   def apply_discount
+    binding.pry
     if cash_register_with_discount == nil
       "There is no discount to apply."
     else
