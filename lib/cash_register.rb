@@ -29,7 +29,9 @@ class CashRegister
   end
 
   def void_last_transaction
-    
+    @@items.each do |item|
+      binding.pry
+    end
   end
 
 end
