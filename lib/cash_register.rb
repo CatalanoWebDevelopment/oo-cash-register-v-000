@@ -7,6 +7,7 @@ class CashRegister
     self.items = []
     @discount = cash_register_with_discount
     @total = 0
+    @transaction = {}
   end
 
   def add_item(title, price, quantity=1)
@@ -15,7 +16,7 @@ class CashRegister
       @items << title
     end
     #This is where the transaction happens...
-    @transaction = {}
+    
   end
 
   def apply_discount
