@@ -26,6 +26,7 @@ class CashRegister
 
   def items
     new_register = Class.new
+    @@items
     
   end
 
