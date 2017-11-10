@@ -20,9 +20,12 @@ class CashRegister
       self.total = total - discounted
       "After the discount, the total comes to $#{total}."
     end
+  end
 
     def items
+      
     end
+    
   end
 
 end
