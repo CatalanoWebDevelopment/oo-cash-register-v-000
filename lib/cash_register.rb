@@ -30,7 +30,7 @@ class CashRegister
 
   def void_last_transaction
     self.total = total - (@transaction[:price] * @transaction[:quantity])
-    
+    @item.pop
   end
 
 end
