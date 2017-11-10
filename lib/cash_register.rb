@@ -15,6 +15,7 @@ class CashRegister
       @items << title
     end
     #This is where the transaction happens...
+    @transactions = []
   end
 
   def apply_discount
@@ -28,7 +29,7 @@ class CashRegister
   end
 
   def void_last_transaction
-  
+
   end
 
 end
