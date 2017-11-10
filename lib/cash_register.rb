@@ -14,6 +14,7 @@ class CashRegister
     quantity.times do
       @items << title
     end
+    #This is where the transaction happens...
   end
 
   def apply_discount
@@ -27,7 +28,7 @@ class CashRegister
   end
 
   def void_last_transaction
-    @@items.last.pop
+  
   end
 
 end
