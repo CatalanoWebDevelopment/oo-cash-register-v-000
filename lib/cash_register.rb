@@ -29,9 +29,7 @@ class CashRegister
   end
 
   def void_last_transaction
-    add_item do |item|
-      binding.pry
-    end
+    
   end
 
 end
